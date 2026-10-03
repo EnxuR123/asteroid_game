@@ -255,7 +255,7 @@ async def main():
             
 
     rocks = []
-    for i in range(2):
+    for i in range(6):
         rocks.append(rock(random.randint(1,5)))
     player = plane()
     bullets = []
@@ -357,7 +357,7 @@ async def main():
                 rock_obj.draw()
 
             if len(rocks) == 0 and not game_over:
-                rocks = [rock(random.randint(1, 5)) for _ in range(2)]
+                rocks = [rock(random.randint(1, 5)) for _ in range(6)]
                 enemy_bullets.clear()
                 enemy_shoot_cooldown = 0
                 invincible_timer = invincible_time
