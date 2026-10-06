@@ -1,4 +1,4 @@
-**Asteroids-Style Space Shooter**
+**Asteroids Shooter**
 
 For this game we replicated the famous asteroid shooting game.
 
